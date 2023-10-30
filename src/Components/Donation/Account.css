@@ -1,0 +1,28 @@
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.account .account_title {
+    font-size: 1.3rem;
+  margin: 1rem 0;
+}
+.account .account_text ul li {
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color:  #515151;
+}
+
+@media screen and (max-width:700px) {
+    .account {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .account .account_text ul li {
+        line-height: 20px;
+        font-size: 12px;
+    }
+}

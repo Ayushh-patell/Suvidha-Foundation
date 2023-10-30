@@ -1,0 +1,17 @@
+.collab {
+    background-color: white;
+}
+.collab_img {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1350px) {
+    .collab_img {
+        flex-direction: column;
+    }
+    .collab_img img {
+        width: 60%;
+        margin: auto;
+    }
+}

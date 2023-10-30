@@ -1,0 +1,102 @@
+.goals {
+    padding: 1rem;
+}
+
+.goals_title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.goal_box {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.goal {
+    background-color: white;
+    box-shadow: 0 4px 10px #00000029;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5rem;
+    transition: all 0.2s ease-out;
+}
+.goal:nth-child(1):hover {
+    background-color: rgba(121, 86, 253, 1);
+}
+.goal:nth-child(2):hover {
+    background-color: rgba(38, 146, 219, 1);
+}
+.goal:nth-child(3):hover {
+    background-color: rgba(45, 131, 117, 1);
+}
+.goal:nth-child(4):hover {
+    background-color: rgba(167, 60, 86, 1);
+}
+.goal:nth-child(5):hover {
+    background-color: rgba(63, 99, 187, 1);
+}
+.goal:nth-child(6):hover {
+    background-color: rgba(211, 73, 152, 1);
+}
+.goal_title , .goal_logo i , .goal_text {
+    transition: all 0.2s ease-out;
+}
+
+.goal_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+.goal_logo {
+    height: 100px;
+    aspect-ratio: 1/1;
+    margin: auto;
+    margin-top: 0.4rem;
+}
+.goal_logo i {
+    font-size: 500%;
+}
+.goal:nth-child(1) .goal_logo i {
+    color: rgba(121, 86, 253, 1);
+}
+.goal:nth-child(2) .goal_logo i {
+    color: rgba(38, 146, 219, 1);
+}
+.goal:nth-child(3) .goal_logo i {
+    color: rgba(45, 131, 117, 1);
+}
+.goal:nth-child(4) .goal_logo i {
+    color: rgba(167, 60, 86, 1);
+}
+.goal:nth-child(5) .goal_logo i {
+    color: rgba(63, 99, 187, 1);
+}
+.goal:nth-child(6) .goal_logo i {
+    color: rgba(211, 73, 152, 1);
+}
+
+.goal_text {
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color:  #515151;
+}
+
+.goal:hover .goal_title , .goal:hover .goal_logo i , .goal:hover .goal_text {
+ color: white;
+}
+
+@media screen and (max-width:900px) {
+    .goal_box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:700px) {
+    .goal_box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

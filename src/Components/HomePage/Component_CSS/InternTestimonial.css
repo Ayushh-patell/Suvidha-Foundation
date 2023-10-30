@@ -1,0 +1,33 @@
+.intern_testimonial {
+    background-color: white;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intern_testimonial_img {
+width: 80%;
+margin: auto;
+}
+.intern_testimonial .btn:hover,.intern_testimonial .btn:focus  {
+ color: #e5a62d;
+}
+
+@media screen and (max-width:767px) {
+  .intern_testimonial_img {
+    height: 480px;
+    width: auto;
+    }
+    .intern_testimonial_img img {
+      height: 100%;
+      width: auto !important;
+      margin: auto;
+    }
+}
+@media screen and (max-width:300px) {
+  .intern_testimonial_img {
+    height: auto;
+    width: auto;
+    }
+
+}

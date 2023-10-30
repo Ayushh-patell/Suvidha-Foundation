@@ -1,0 +1,48 @@
+.volunteer {
+  /* image by StartupStockPhotos from Pixabay */
+  background-image: url(../../../../public/images/Internship.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.671);
+}
+
+.volunteer_title,
+.volunteer_text {
+  color: white;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+
+}
+
+.volunteer .title {
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.volunteer_text {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width:300px) {
+  .volunteer_text {
+    font-size: 0.8rem;
+  }
+}

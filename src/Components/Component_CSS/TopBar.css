@@ -1,0 +1,130 @@
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 2rem;
+}
+
+.bar .phone_box:hover i {
+    animation: shake 0.3s linear;
+}
+
+.bar .phone_box .contact {
+    color: #353535;
+    font-weight: 600;
+}
+
+.bar .socials_box ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
+
+.bar .socials_box ul li {
+    list-style-type: none;
+    padding: 0.7rem 0;
+}
+
+.bar .socials_box ul li a {
+    padding: 0.3rem 1rem;
+    border-right: 1px solid rgb(184, 184, 184);
+}
+
+.bar .socials_box ul li a i {
+    transition: all 0.1s linear;
+}
+
+.bar .socials_box ul li:nth-child(1) a:hover i {
+    color: #0143CE;
+    scale: 1.2;
+}
+
+.bar .socials_box ul li:nth-child(2) a:hover i {
+    color: #D92B6C;
+    scale: 1.2;
+}
+
+.bar .socials_box ul li:nth-child(3) a:hover i {
+    color: #D8483C;
+    scale: 1.2;
+}
+
+.bar .socials_box ul li:nth-child(4) a:hover i {
+    color: #0074B1;
+    scale: 1.2;
+}
+
+.bar .socials_box ul li:last-child a {
+    border-right: 0px;
+}
+
+.side_socials_box {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateX(1000%) translateY(-50%);
+    padding: 0.4rem;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    z-index: 5;
+    width: 50px;
+    transition: transform 0.2s ease-in;
+}
+
+.side_socials_box ul li {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.side_socials_box ul li:nth-child(1):hover a {
+    color: #0143CE;
+}
+
+.side_socials_box ul li:nth-child(2):hover a {
+    color: #D92B6C;
+}
+
+.side_socials_box ul li:nth-child(3):hover a {
+    color: #D8483C;
+}
+
+.side_socials_box ul li:nth-child(4):hover a {
+    color: #0074B1;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+
+
+    70% {
+        transform: rotate(20deg);
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    .bar {
+        flex-direction: column;
+        padding: 3px 1rem;
+    }
+    .bar .phone_box .contact {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:350px) {
+    .side_socials_box {
+        width: 42px;
+        padding: 0.2rem;
+    }
+   .side_socials_box ul li {
+    font-size: 1.1rem;
+   }
+}

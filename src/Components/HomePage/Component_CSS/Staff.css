@@ -1,0 +1,104 @@
+.teams {
+    padding: 1rem 5rem;
+  margin: 1rem 0;
+}
+.team_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+.team_member {
+    padding: 0.4rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.277);
+    position: relative;
+    border-radius: 15px;
+}
+.team_member .member_img {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.team_member .member_socials {
+    display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 96%;
+}
+.team_member .member_socials .member_social {
+    border-radius: 22%;
+  transform: translateY(0%);
+  background-color: white;
+  aspect-ratio: 1/1;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in;
+}
+.team_member:hover .member_socials .member_social {
+  transform: translateY(-140%);
+}
+.team_member .member_socials .member_social:nth-child(1):hover {
+    background-color: #0143CE;
+    color: white;
+}
+.team_member .member_socials .member_social:nth-child(2):hover {
+    background-color: #D92B6C;
+    color: white;
+}
+.team_member .member_socials .member_social:nth-child(3):hover {
+    background-color: #D8483C;
+    color: white;
+}
+.team_member .member_socials .member_social:nth-child(4):hover {
+    background-color: #0074B1;
+    color: white;
+}
+.team_member .member_text {
+    text-align: center;
+    background-color: rgb(62, 171, 255);
+    position: relative;
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+.team_member .member_text p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+@media screen and (max-width:900px) {
+  .team_box {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media screen and (max-width:700px) {
+  .team_member .member_socials .member_social {
+    transform: translateY(-140%);
+  }
+  .team_box {
+    grid-template-columns: repeat(1, 1fr);
+    width: 60%;
+    margin: auto;
+  }
+}
+@media screen and (max-width:700px) {
+  .teams {
+    padding: 1rem;
+  }
+  .team_member .member_socials .member_social {
+    width: 24px;
+  }
+}
+@media screen and (max-width:300px) {
+  .team_member .member_socials .member_social {
+    width: 20px;
+    font-size: 0.9rem;
+  }
+  .team_box {
+    width: 95%;
+  }
+}
+

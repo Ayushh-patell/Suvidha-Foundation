@@ -1,0 +1,25 @@
+
+.verify {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verify form {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.verify form input {
+    width: 70vw;
+    min-width: 50px;
+    padding: 0.8rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #0000004f;
+}
+
+.records {
+    min-height: 200px;
+}

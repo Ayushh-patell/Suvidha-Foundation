@@ -1,0 +1,23 @@
+.intern_testimonial_cards {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+  gap: 10px;
+}
+.intern_testimonial_cards .testimonial_card {
+    text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #0000002b;
+  padding: 1rem;
+}
+.intern_testimonial_cards .testimonial_card .testimonial_img img {
+    margin: 0.6rem auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.285);
+}
+
+@media screen and (max-width:800px) {
+  .intern_testimonial_cards {
+  grid-template-columns: repeat(1, 1fr);
+}
+}

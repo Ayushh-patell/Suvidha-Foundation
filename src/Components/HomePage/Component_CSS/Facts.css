@@ -1,0 +1,50 @@
+.facts {
+    padding: 1rem;
+}
+.facts .fact_box {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.223);
+    background-color: white;
+
+}
+.facts .fact_box .fact {
+    padding: 0.4rem;
+}
+.facts .fact_box .fact .fact_logo {
+    text-align: center;
+  font-size: 2rem;
+}
+.facts .fact_box .fact:nth-child(1) .fact_logo {
+  color: rgba(121, 86, 253, 1);
+}
+.facts .fact_box .fact:nth-child(2) .fact_logo {
+    color: rgba(167, 60, 86, 1);
+}
+.facts .fact_box .fact:nth-child(3) .fact_logo {
+    color: rgba(38, 146, 219, 1);
+}
+.facts .fact_box .fact:nth-child(4) .fact_logo {
+    color: rgba(45, 131, 117, 1);
+}
+.facts .fact_box .fact .fact_text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media screen and (max-width:900px) {
+    .facts .fact_box {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  }
+@media screen and (max-width:700px) {
+    .facts .fact_box {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  }
+@media screen and (max-width:300px) {
+    .facts .fact_box .fact .fact_text {
+        font-size: 1rem;
+    }
+  }

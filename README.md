@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Suvidha Foundation NGO Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository houses the codebase for the Suvidha Foundation NGO website, a single-page application (SPA) developed using React. This project is the result of an internship under the Suvidha Foundation, aimed at creating a dynamic and informative platform for the NGO's online presence.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The Suvidha Foundation NGO website is designed to be a user-friendly, informative, and engaging portal for visitors interested in learning more about the organization, its mission, and its activities. It consists of several key sections:
 
-### `npm start`
+### Home Page
+The landing page welcomes visitors and provides an overview of the Suvidha Foundation's mission and values.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Internship Page
+This section provides information about the Student Internship and Mentorship Program offered by Suvidha Foundation. It explains the program's objectives, how students can get involved, and what they can expect to gain from the internship.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Events Page
+Visitors can stay informed about upcoming events and activities organized by Suvidha Foundation. Event details and schedules are easily accessible on this page.
 
-### `npm test`
+### Gallery Page
+The gallery showcases visually captivating images, depicting the organization's activities and impact. The use of GSAP for animations and Owl Carousel for carousels enhances the visual appeal and interactivity of this section.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React: A powerful JavaScript library for building user interfaces.
+- React Router: Used to make the website a single page application.
+- GSAP (GreenSock Animation Platform): Used for creating stunning animations throughout the website.
+- Owl Carousel: Implemented to create visually appealing carousels for images and content.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```shell
+   git clone https://github.com/suvidha-foundation/ngo-website.git
 
-### `npm run eject`
+2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```shell
+    cd ngo-website
+    npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Run the Development Server**: To run the website locally for testing and development, use the following command:
+    ```shell
+    npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screenshot 2023-10-30 202352](https://github.com/Ayushh-patell/Suvidha-Foundation/assets/142811459/5bedc8aa-c68d-4c9a-80b0-7856872e4899)
+![Screenshot 2023-10-30 202415](https://github.com/Ayushh-patell/Suvidha-Foundation/assets/142811459/4aa273dd-3493-43c2-a22d-5c526dc1d850)
+![Screenshot 2023-10-30 202446](https://github.com/Ayushh-patell/Suvidha-Foundation/assets/142811459/5f6c6556-dab7-4c67-95fc-ad06d626c68d)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

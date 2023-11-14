@@ -71,6 +71,7 @@
     z-index: 5;
     width: 50px;
     transition: transform 0.2s ease-in;
+    box-shadow: 0 0 5px #00000052;
 }
 
 .side_socials_box ul li {

@@ -32,6 +32,7 @@ const InternTestimonial = () => {
   return (
     <div className="intern_testimonial">
     <h4 className="title">Voices of Support: Our Charity's Impact Stories</h4>
+
       <OwlCarousel className="owl-theme" {...carousel_option}>
         <div className="item">
           <div className="intern_testimonial_img">
@@ -113,5 +114,5 @@ const InternTestimonial = () => {
     </div>
   );
 };
-
+//App Created by Ayush Patel https://www.linkedin.com/in/ayush-patel-99a44b283
 export default InternTestimonial;

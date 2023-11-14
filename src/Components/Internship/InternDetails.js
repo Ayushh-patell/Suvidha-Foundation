@@ -9,7 +9,7 @@ const InternDetails = () => {
   const detail = useRef();
 
   useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
+    let ctx = gsap.context(() => { //animate 1st element in internDetail component
       gsap.from(".details .detail_box:nth-child(1) .detail", {
         xPercent: -100,
         delay: 0.6,
@@ -26,7 +26,7 @@ const InternDetails = () => {
     return () => ctx.revert();
   }, []);
   useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
+    let ctx = gsap.context(() => { //animate 2nd element in internDetail component
       gsap.from(".details .detail_box:nth-child(2) .detail", {
         xPercent: 100,
         delay: 0.6,

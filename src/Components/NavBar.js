@@ -12,12 +12,12 @@ const GoHome = ()=> {
   navigate("/")
 }
 
-  const handleToggle = ()=> {
+  const handleToggle = ()=> { //Expand/Shrink the navbar
     let navbar = document.querySelector(".topnav")
     navbar.classList.toggle("expand_nav")
   }
 
-const handleMenu = (e)=> {
+const handleMenu = (e)=> { //open/close side navbar
   e.target.classList.toggle("rotate_plus")
 
   document.querySelectorAll(".nav_circle").forEach((circle)=> {
@@ -28,7 +28,7 @@ const handleMenu = (e)=> {
   })
 }
 
-  useEffect(() => {
+  useEffect(() => { // show side navbar when user scrolls down 150px
     let sidenav = document.getElementsByClassName("sidenav")[0];
   
     window.addEventListener("scroll", () => {

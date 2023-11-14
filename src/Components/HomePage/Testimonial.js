@@ -32,6 +32,7 @@ const Testimonial = () => {
   return (
     <div>
     <h4 className="title">Buzz and Conversations Surrounding Our Charitable Initiatives</h4>
+    
       <OwlCarousel className="owl-theme" {...carousel_option}>
         <div className="item">
           <div className="testimonial_carousel">

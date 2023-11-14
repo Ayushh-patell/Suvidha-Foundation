@@ -10,7 +10,7 @@ const InternTestimonialCard = () => {
     const card = useRef();
 
 useLayoutEffect(() => {
-  let ctx = gsap.context(() => {
+  let ctx = gsap.context(() => { //animate each testimonial card
     let cards = document.querySelectorAll(".testimonial_card")
     cards.forEach((card)=> {
         gsap.from(card, {
@@ -122,5 +122,5 @@ useLayoutEffect(() => {
     </>
   );
 };
-
+//App Created by Ayush Patel https://www.linkedin.com/in/ayush-patel-99a44b283
 export default InternTestimonialCard;

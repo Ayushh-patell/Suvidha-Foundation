@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
       <div className="footer_copyright">
         <span className="rights">© Suvidha Foundation (Suvidha Mahila Mandal), All Right Reserved</span>
-        <span className="designer">Designed By Ayush Patel</span>
+        <a style={{color:"white"}} rel="noopener noreferrer" target='_blank' href='https://www.linkedin.com/in/ayush-patel-99a44b283' className="designer">Designed By Ayush Patel</a>
       </div>
     </footer>
   )

@@ -39,6 +39,11 @@ a {
   background: none;
   color: #ffffff;
 }
+.donateHome .btn:hover,
+.donateHome .btn:focus {
+  background: none;
+  color: #e5a62d;
+}
 
 .intern_btn {
   display: inline-block;

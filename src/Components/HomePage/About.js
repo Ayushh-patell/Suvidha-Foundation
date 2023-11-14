@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Component_CSS/About.css";
 
 const About = () => {
-    const [aboutTab, setaboutTab] = useState("about")
+    const [aboutTab, setaboutTab] = useState("about") //state to change the tab(about, mission, vision) visible to user
 
 useEffect(()=> {
-    let slide_text = document.querySelector(".about_slide_text")
+    let slide_text = document.querySelector(".about_slide_text") //move the about text element according to the tab selected
     if(aboutTab==="about") {
         slide_text.style.translate= "0%"
     }

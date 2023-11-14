@@ -9,6 +9,7 @@ import InternTestimonial from '../Components/HomePage/InternTestimonial'
 import Team from '../Components/HomePage/Staff'
 import Collab from '../Components/HomePage/Collab'
 import Testimonial from '../Components/HomePage/Testimonial'
+import Donate from '../Components/HomePage/Donate'
 
 const HomePage = () => {
   useLayoutEffect(() => {
@@ -18,6 +19,7 @@ const HomePage = () => {
     <>
     <TopCarousel/>
     <About/>
+    <Donate/>
     <Volunteer/>
     <Goals/>
     <EventDisplay/>
